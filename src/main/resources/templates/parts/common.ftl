@@ -1,7 +1,7 @@
 <#macro page>
 <html>
     <head>
-        <title>Smth</title>
+        <title>MLT</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="/static/css/style.css">
         <meta charset="utf-8">

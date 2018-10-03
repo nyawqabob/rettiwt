@@ -14,13 +14,15 @@
             <li class="nav-item active">
                 <a class="nav-link" href="/main">Messages</a>
                 </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/profile">Profile</a>
+                </li>
             <#if isAdmin>
             <li class="nav-item active">
                 <a class="nav-link" href="/user">User list</a>
                 </li>
             </#if>
             </ul>
-        <div class="navbar-text mr-3">${name}</div>
         <#if known>
          <@l.logout/>
 </#if>
